@@ -1,0 +1,355 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 10px 20px;
+}
+
+header nav {
+    display: flex;
+    gap: 40px;
+}
+
+header nav a {
+    font-family: "Ovo";
+    color: white;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    color: rgb(160, 158, 158);
+}
+
+header button {
+    padding: 7px 15px;
+    border: 0px;
+}
+
+header button:hover {
+    transition-duration: 0.2s;
+    background-color: rgb(85, 84, 84);
+    color: white;
+}
+
+#primeira-tela {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 800px;
+    background-color: #242424;
+}
+
+#primeira-tela h1 {
+    font-family: "Ovo";
+    font-size: 64px;
+    font-weight: normal;
+    color: white;
+}
+
+#primeira-tela p {
+    font-family: "Ovo";
+    color: #6c6c6c;
+}
+
+#primeira-tela button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: 0px;
+    font-size: 15px;
+}
+
+#primeira-tela button:hover {
+    background-color: #6c6c6c;
+    transition-duration: 0.2s;
+    color: white;
+}
+
+#segunda-tela {
+    background-color: black;
+    height: 1980px;
+
+}
+
+#segunda-tela #number {
+    color: white;
+}
+
+#eletric {
+    display: flex;
+    justify-content: center;
+    padding-top: 180px;
+    color: white;
+}
+
+#eletric img {
+    opacity: 70%;
+}
+
+#eletric #direita {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    justify-content: center;
+    gap: 5px;
+    width: 312px;
+}
+
+#eletric #direita h1 {
+    font-family: "Ovo";
+    font-weight: normal;
+    color: #6c6c6c;
+    font-size: 46px;
+}
+
+#eletric #direita p {
+    font-weight: normal;
+}
+
+#number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px 0px 110px 0px;
+}
+
+#number h1 {
+    font-family: "Ovo";
+    font-weight: normal;
+    color: #262626;
+    font-size: 290px;
+
+}
+
+#number .direita {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 348px;
+    margin: -7px 40px 0px 20px;
+    gap: 32px;
+}
+
+#number .direita h2 {
+    font-family: "Ovo";
+    font-size: 32px;
+    color: #6c6c6c;
+}
+
+#number .direita p {
+    font-weight: normal;
+    line-height: 22px;
+}
+
+#dna {
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+#dna>.direito {
+    display: flex;
+    gap: 20px;
+}
+
+#dna>.esquerdo {
+    padding: 200px;
+    width: 500px;
+}
+
+
+#dna>.esquerdo h3 {
+    font-weight: normal;
+    color: #6c6c6c;
+    margin-bottom: 56px;
+}
+
+#dna>.esquerdo h1 {
+    font-family: "Ovo";
+    font-size: 64px;
+    font-weight: normal;
+    margin-bottom: 36px;
+}
+
+#dna>.esquerdo p {
+    font-weight: normal;
+    margin-bottom: 36px;
+    font-size: 17px;
+    color: #a8a7a7;
+}
+
+#dna>.esquerdo button {
+    padding: 10px;
+    font-size: 17px;
+    color: black;
+}
+
+#terceira-tela {
+    height: 1500px;
+    color: rgb(221, 218, 218);
+    padding: 0px 266px;
+    color: black;
+}
+
+#terceira-tela h1 {
+    font-size: 64px;
+    font-weight: normal;
+    margin: 180px 0px 64px 0px;
+}
+
+#terceira-tela nav {
+    word-spacing: 270px;
+    padding:0px 0px 35px 0px;
+    border-bottom: 1px black solid;
+}
+
+#terceira-tela nav a{
+    text-decoration: none;
+    color: #6c6c6c;
+}
+
+#terceira-tela nav .ativo {
+    color: blue;
+    border-bottom: 2px blue solid ;
+    padding: 0px 30px 35px 0px;
+}
+
+#carros {
+    display: flex;
+    gap: 165px;
+    margin-top: 64px;
+    justify-content: center;
+    align-items: center;
+}
+
+#carros h2 {
+    font-family: "Ovo";
+    font-size: 32px;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+#carros p {
+    color: #6c6c6c;
+    margin-bottom: 15px;
+}
+
+#EQE {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#EQS {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#Classic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#EQA {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#EQB {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#EQC {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.coluns {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+#config {
+    display: flex;
+    gap: 16px;
+    margin-top: 180px;
+}
+
+
+#config h1 {
+    margin: 0px;
+    font-family: "Ovo";
+    font-weight: normal;
+    font-size: 32px;
+    margin-bottom: 6px;
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 176px 270px 176px 270px;
+}
+
+footer p.unic{
+    color: #6c6c6c;
+    margin-bottom: 56px;
+}
+
+footer .cep {
+    border-bottom: 1px white solid;
+    padding-bottom: 16px;
+    margin-bottom: 40px;
+}
+
+footer h1 {
+    font-family: "Ovo";
+    font-size: 64px;
+    font-weight: normal;
+    margin-bottom: 120px;
+}
+
+footer button {
+    font-family: "Ovo";
+    font-size: 18px;
+    margin-bottom: 180px;
+    padding: 10px;
+}
+
+.foot {
+    margin-top: 180px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot a {
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+}
+
+.foot nav {
+    display: flex;
+    gap: 50px;
+}
