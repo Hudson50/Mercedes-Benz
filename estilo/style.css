@@ -22,6 +22,7 @@ header nav a {
     font-family: "Ovo";
     color: white;
     text-decoration: none;
+    font-size: 16px;
 }
 
 header nav a:hover {
@@ -75,8 +76,6 @@ header button:hover {
 
 #segunda-tela {
     background-color: black;
-    height: 1980px;
-
 }
 
 #segunda-tela #number {
@@ -85,22 +84,25 @@ header button:hover {
 
 #eletric {
     display: flex;
-    justify-content: center;
+    gap: 5px;
     padding-top: 180px;
     color: white;
+    
 }
 
 #eletric img {
     opacity: 70%;
 }
-
+#eletric #esquerda {
+    width: 70%;
+}
 #eletric #direita {
     display: flex;
     flex-direction: column;
-    padding-left: 30px;
     justify-content: center;
+    text-align: left;
     gap: 5px;
-    width: 312px;
+    width: 30%;
 }
 
 #eletric #direita h1 {
@@ -121,12 +123,9 @@ header button:hover {
     margin: 150px 0px 110px 0px;
 }
 
-#number h1 {
-    font-family: "Ovo";
-    font-weight: normal;
-    color: #262626;
-    font-size: 290px;
-
+#number img {
+    max-width: 200px;
+    
 }
 
 #number .direita {
@@ -153,35 +152,41 @@ header button:hover {
     color: white;
     display: flex;
     align-items: center;
+
 }
 
 #dna>.direito {
     display: flex;
     gap: 20px;
+    width: 50%;
 }
 
-#dna>.esquerdo {
-    padding: 200px;
-    width: 500px;
+main img {
+    width: 100%;
+} 
+
+#dna > .esquerdo {
+    padding: 180px 200px 180px 200px;
+    width: 30%;
 }
 
 
-#dna>.esquerdo h3 {
+#dna >.esquerdo h3 {
     font-weight: normal;
     color: #6c6c6c;
-    margin-bottom: 56px;
+    padding-bottom: 56px;
 }
 
 #dna>.esquerdo h1 {
     font-family: "Ovo";
     font-size: 64px;
     font-weight: normal;
-    margin-bottom: 36px;
+    padding-bottom: 36px;
 }
 
 #dna>.esquerdo p {
     font-weight: normal;
-    margin-bottom: 36px;
+    padding-bottom: 36px;
     font-size: 17px;
     color: #a8a7a7;
 }
@@ -191,6 +196,7 @@ header button:hover {
     font-size: 17px;
     color: black;
 }
+
 
 #terceira-tela {
     height: 1500px;
@@ -206,8 +212,8 @@ header button:hover {
 }
 
 #terceira-tela nav {
-    word-spacing: 270px;
-    padding:0px 0px 35px 0px;
+    display: flex;
+    justify-content: space-around;
     border-bottom: 1px black solid;
 }
 
