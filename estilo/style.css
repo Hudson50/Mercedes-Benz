@@ -109,7 +109,7 @@ header button:hover {
     font-family: "Ovo";
     font-weight: normal;
     color: #6c6c6c;
-    font-size: 46px;
+    font-size: clamp(1.5rem, 4vw, 3rem);
 }
 
 #eletric #direita p {
@@ -118,17 +118,46 @@ header button:hover {
 
 #number {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     margin: 150px 0px 110px 0px;
 }
 
 #number img {
     max-width: 200px;
-    
+    min-width: 10px;
 }
-
-#number .direita {
+#number .esquerdo {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+#number .esquerdo .direita h2{
+    font-family: "Ovo";
+    font-size: clamp(1.5rem, 4vw, 3rem);
+    color: #6c6c6c;
+}
+#number .esquerdo .direita p {
+    font-weight: normal;
+    line-height: 22px;
+    font-size: clamp(12px, 2vw, 15px);
+}
+#number .direito {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+#number .direito .direita h2{
+    font-family: "Ovo";
+    font-size: clamp(1.5rem, 4vw, 3rem);
+    color: #6c6c6c;
+}
+#number .direito .direita p {
+    font-weight: normal;
+    line-height: 22px;
+    font-size: clamp(12px, 2vw, 15px);
+}
+/* #number .direita {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -139,14 +168,14 @@ header button:hover {
 
 #number .direita h2 {
     font-family: "Ovo";
-    font-size: 32px;
+    font-size: clamp(1.5rem, 4vw, 3rem);
     color: #6c6c6c;
 }
 
 #number .direita p {
     font-weight: normal;
     line-height: 22px;
-}
+} */
 
 #dna {
     color: white;
